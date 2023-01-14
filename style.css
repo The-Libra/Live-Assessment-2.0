@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+
+}
+.main{
+    
+}
+
+.header{
+    height: 150px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+h1{
+    margin-left: 25px;
+    font-family: 'Cookie', cursive;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    justify-content: space-around;
+    margin-right: 8%;
+    gap: 8px;
+
+}
+.nav li{
+    list-style-type: none;
+    font-family: 'Cookie', cursive;
+}
+.nav li a{
+    font-size: 32px;
+    text-decoration: underline;
+
+}
+.container{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    
+}
+
+.cards{
+    height: 350px;
+    width: 480px;
+    border: 3px solid brown;
+    border-radius: 10px;
+}
+
+.card1{
+    background-color: aqua;
+}
+.card4{
+    background-color: aqua;
+}
+.image{
+    height: 320px;
+    width: 470px;
+    background-image: url(./lbsnaa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+table{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+
+}
+th{
+    background-color: cyan;
+
+}
+td{
+    background-color: cyan;
+
+
+}
+.card3{
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+    background-color: cyan;
+
+}
+.card3 li{
+    background-color: cyan;
+
+}
+
+}
+
+span{
+    text-align: left;
+}
+.card6{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    background-color: cyan;
+
+}
+form{
+    background-color: cyan;
+
+}
+label{
+    background-color: cyan;
+
+}
+input{
+    background-color: cyan;
+
+}
+
+ul{
+    margin-bottom: 20px;
+}
